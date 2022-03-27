@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-gitDefinition = "Git is a software for tracking changes in any set of files."
+const gitDefinition = "Git is a software for tracking changes in any set of files."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +18,7 @@ gitDefinition = "Git is a software for tracking changes in any set of files."
 */
 
 //CODE HERE
-gitHubDefinition = "Github is a code hosting platform."
+const gitHubDefinition = "Github is a code hosting platform."
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +26,7 @@ gitHubDefinition = "Github is a code hosting platform."
 */
 
 //CODE HERE
-gitInitDefinition = "Git init is a command that creates a new repository."
+const gitInitDefinition = "Git init is a command that creates a new repository."
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@ gitInitDefinition = "Git init is a command that creates a new repository."
 */
 
 //CODE HERE
-gitCloneDefinition = "Git clone is a command that creates a copy of a repository to a directory on your computer."
+const gitCloneDefinition = "Git clone is a command that creates a copy of a repository to a directory on your computer."
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +42,7 @@ gitCloneDefinition = "Git clone is a command that creates a copy of a repository
 */
 
 //CODE HERE
-gitStatusDefinition = "Git status is a command that shows the status of a directory."
+const gitStatusDefinition = "Git status is a command that shows the status of a directory."
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,8 +53,8 @@ gitStatusDefinition = "Git status is a command that shows the status of a direct
 */
 
 //CODE HERE
-gitAddDefinition = "Git add is a command that adds a change to your directory. It tells Git that you want to include updates to a file in the next commit."
-gitAddCode = "git add -A"
+const gitAddDefinition = "Git add is a command that adds a change to your directory. It tells Git that you want to include updates to a file in the next commit."
+const gitAddCode = "git add ."
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,8 +65,8 @@ gitAddCode = "git add -A"
 */
 
 //CODE HERE
-gitCommitDefinition = "Git commit is a command used for saving changes to a file."
-gitCommitCode = "git commit -m 'initial commit'"
+const gitCommitDefinition = "Git commit is a command used for saving changes to a file."
+const gitCommitCode = "git commit -m 'initial commit'"
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,4 +75,4 @@ gitCommitCode = "git commit -m 'initial commit'"
 */
 
 //CODE HERE
-gitPushDefinition = "Git push is a command used to transfer or push the commit to a remote repository."
+const gitPushDefinition = "Git push is a command used to transfer or push the commit to a remote repository."
